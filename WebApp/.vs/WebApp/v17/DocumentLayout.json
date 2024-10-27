@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|c:\\users\\lucccas silva\\onedrive\\\u00E1rea de trabalho\\programas\\programas - backend\\ws-c#\\csharp_projeto_mvc\\webapp\\models\\aulamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|solutionrelative:models\\aulamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|c:\\users\\lucccas silva\\onedrive\\\u00E1rea de trabalho\\programas\\programas - backend\\ws-c#\\csharp_projeto_mvc\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|c:\\users\\lucccas silva\\onedrive\\\u00E1rea de trabalho\\programas\\programas - backend\\ws-c#\\csharp_projeto_mvc\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B071CD3-DEB9-4644-9D1C-63B2BDF7648C}|WebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Migrations\\20241027203640_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241027203640_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AulaModel.cs",
-              "DocumentMoniker": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Models\\AulaModel.cs",
-              "RelativeDocumentMoniker": "Models\\AulaModel.cs",
-              "ToolTip": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Models\\AulaModel.cs",
-              "RelativeToolTip": "Models\\AulaModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "20241027203640_initdb.cs",
+              "DocumentMoniker": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Migrations\\20241027203640_initdb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241027203640_initdb.cs",
+              "ToolTip": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Migrations\\20241027203640_initdb.cs",
+              "RelativeToolTip": "Migrations\\20241027203640_initdb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:37:40.915Z",
+              "WhenOpened": "2024-10-27T20:36:41.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwCkAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lucccas Silva\\OneDrive\\\u00C1rea de Trabalho\\Programas\\Programas - BackEnd\\ws-C#\\CSharp_Projeto_MVC\\WebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwAkAAADJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T18:47:57.965Z",
+              "WhenOpened": "2024-10-27T20:23:07.483Z",
               "EditorCaption": ""
             }
           ]

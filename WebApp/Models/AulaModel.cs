@@ -1,13 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApp.Models
 {
+    [Table("tb_aula")]
     public class AulaModel
     {
-        [Required(ErrorMessage = "Campo Obrigatorio")]
-        public string Materia { get; set; }
+        [Key]
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatorio")]
-        public string Turma { get; set; }
+        public required string Materia { get; set; }
+
+        [Required(ErrorMessage = "Campo Obrigatorio")]
+        public required string Turma { get; set; }
     }
 }
