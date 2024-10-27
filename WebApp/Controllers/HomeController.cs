@@ -18,6 +18,18 @@ namespace WebApp.Controllers
             return View();
         }
 
+        public IActionResult Aula()
+        {
+            var aula = new AulaModel
+            {
+                Name = "CSharp",
+                Turma = "1-A"
+            };
+
+            return View(aula);
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
