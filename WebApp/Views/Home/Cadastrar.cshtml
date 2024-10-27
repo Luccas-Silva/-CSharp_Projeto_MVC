@@ -1,0 +1,17 @@
+﻿@model AulaModel
+
+<div>
+    <form asp-action="Cadastrar">
+        <div>
+            <label asp-for="Materia"></label>
+            <input asp-for="Materia" />
+        </div>
+        <div>
+            <label asp-for="Turma"></label>
+            <input asp-for="Turma" />
+        </div>
+        <div>
+            <input type="submit" value="Salvar"/>
+        </div>
+    </form>
+</div>

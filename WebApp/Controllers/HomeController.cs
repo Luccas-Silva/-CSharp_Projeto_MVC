@@ -20,15 +20,29 @@ namespace WebApp.Controllers
 
         public IActionResult Aula()
         {
-            var aula = new AulaModel
-            {
-                Name = "CSharp",
-                Turma = "1-A"
+            var listAulas = new List<AulaModel>() { 
+                new AulaModel { Materia = "CSharp", Turma = "2-ADS" },
+                new AulaModel { Materia = "Java", Turma = "2-ADS" },
+                new AulaModel { Materia = "Python", Turma = "2-ADS" }
             };
 
-            return View(aula);
+            return View(listAulas);
         }
 
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(AulaModel model)
+        {
+            if (ModelState.IsValid) { 
+                //Salvar dados no banco
+                return RedirectToAction("Aula");
+            }
+            return View(model);
+        }
 
         public IActionResult Privacy()
         {

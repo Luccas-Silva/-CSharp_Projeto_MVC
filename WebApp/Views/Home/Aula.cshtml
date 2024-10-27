@@ -1,20 +1,30 @@
-﻿@model AulaModel
+﻿@model IEnumerable<AulaModel>
 
-<h1>Aulas</h1>
+<h2>Aulas</h2>
 
-<div>
-    <dt>
-        @Html.DisplayNameFor(Model => Model.Name)
-    </dt>
-    <dd>
-        @Html.DisplayFor(Model => Model.Name)
-    </dd>
-
-    <dt>
-        @Html.DisplayNameFor(Model => Model.Turma)
-    </dt>
-    <dd>
-        @Html.DisplayFor(Model => Model.Turma)
-    </dd>
-</div>
+<table>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Materia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turma)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Materia)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Turma)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
